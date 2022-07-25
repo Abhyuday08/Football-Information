@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Rewiew of the site</title>
+  </head>
+  <body>
+  <hr size="5" color="Blue">
+  <center>
+<h1>Review of the website</h1>
+  </center>
+  <hr size="5" color="Red">
+  <!--Here we are able to get responses from the viewer through mail and date given by him will be specified with some
+  heading like.....Name of sender=Leo..-->
+
+
+  <form action="mailto:abhyudaysharma01@gmail.com" method="post" enctype="text/plain">
+<!-- through action we are directing the site to go after submit button will be pressed by thr viewer.
+posting the review of the viewer to mail or directing the site to another page.
+enctype is used to get the simple language of data given i.e is readable without any symbols apart from the symbols which user has given in the review -->
+
+    <label><strong>Name:</strong></label>
+    <input type="text" name="Name:" value=""><br /><!-- In the mail we will get the name response in e"Name" like this other data will alos be displayed in the mail-->
+    <label><strong>DOB:</strong></label>
+    <input type="date" /><br />
+    <label><strong>E-Mail:</strong></label>
+    <input type="email" name="Email:" value="">
+    <br />
+    <label><strong>Review:</strong></label><br />
+    <textarea name="Message" rows="10"cols="30"></textarea><br />
+    <label><strong>Viewed the complete Page:</strong></label>
+    <input type="checkbox" name=""  /><br />
+    <input type="submit" name="" >
+
+  </form>
+<hr size="5" color="Blue">
+  </body>
+</html>
